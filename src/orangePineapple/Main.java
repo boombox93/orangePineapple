@@ -13,6 +13,8 @@ import javax.swing.SwingUtilities;
 
 public class Main implements Runnable{
 
+	private static int _health = 30;
+	/*
 	@Override
 	public void run() 
 	{
@@ -40,14 +42,48 @@ public class Main implements Runnable{
 		jf.setVisible(true);
 		
 	}
+	*/
+	
+	public static int damageMethod(int h)
+	{
+		
+		h -= 1;
+		_health=h;
+		return h;
+	}
+	
+	@Override
+	public void run() 
+	{
+		
+		
+		
+	}
 	
 	public static void main(String[] args) 
 	{
+		/*
 		Main m = new Main();
 		// Event queue
 		SwingUtilities.invokeLater(m);
-
+		*/
+		int health = 30;
+		
+		while(_health > 0)
+		{
+			
+			System.out.println(damageMethod(_health));
+			if(_health == 0)
+			{
+				System.out.println("You ded");
+			}
+		}
+		
+		
+		
 	}
+
+	
 
 	
 
