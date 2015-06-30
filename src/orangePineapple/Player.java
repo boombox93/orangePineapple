@@ -47,11 +47,11 @@ public class Player
 		return _name;
 	}
 	
-	public int takeDamage(int damage)
+	public void takeDamage(int damage)
 	{
 		//Logic is: if armor is greater than damage, subtract that amount of damage from health
 		//else if there's less health than the amount of damage, subtract the remainder of armor - damage from health
-		
+		//Confirmed working properly
 		if(_armor > damage)
 		{
 			_armor = _armor - damage;
@@ -59,10 +59,10 @@ public class Player
 		else if(_armor < damage)
 		{
 			int remainder = damage - _armor;
+			_armor = 0;
 			_health = _health - remainder;
 		}
-		
-		return _health;
+	
 	}
 	
 	

@@ -13,7 +13,7 @@ import javax.swing.SwingUtilities;
 
 public class Main implements Runnable{
 
-	private static int _health = 30;
+	
 	/*
 	@Override
 	public void run() 
@@ -60,6 +60,21 @@ public class Main implements Runnable{
 		// Event queue
 		SwingUtilities.invokeLater(m);
 		*/	
+		
+		Player p1 = new Player();
+		p1.setDamage(3);
+		p1.setArmor(10);
+		p1.setHealth(20);
+		System.out.println("Damage: " + p1.getDamage());
+		System.out.println("Health: " + p1.getHealth());
+		System.out.println("Armor: " + p1.getArmor());
+		p1.takeDamage(5);
+		System.out.println("Health: " + p1.getHealth());
+		System.out.println("Armor: " + p1.getArmor());
+		p1.takeDamage(7);
+		System.out.println("Health: " + p1.getHealth());
+		System.out.println("Armor: " + p1.getArmor());
+		
 		
 	}
 
