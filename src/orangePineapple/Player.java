@@ -52,6 +52,7 @@ public class Player
 		//Logic is: if armor is greater than damage, subtract that amount of damage from health
 		//else if there's less health than the amount of damage, subtract the remainder of armor - damage from health
 		//Confirmed working properly
+		//test
 		if(_armor > damage)
 		{
 			_armor = _armor - damage;

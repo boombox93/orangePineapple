@@ -59,9 +59,7 @@ public class Main implements Runnable{
 		Main m = new Main();
 		// Event queue
 		SwingUtilities.invokeLater(m);
-		*/	
 		
-		Player p1 = new Player();
 		p1.setDamage(4);
 		p1.setArmor(10);
 		p1.setHealth(20);
@@ -74,6 +72,12 @@ public class Main implements Runnable{
 		p1.takeDamage(8);
 		System.out.println("Health: " + p1.getHealth());
 		System.out.println("Armor: " + p1.getArmor());
+		*/	
+		
+		GUI gui = new GUI();
+		Player p1 = new Player();
+		gui.runGUI();
+		
 		
 		
 	}
