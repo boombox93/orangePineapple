@@ -2,6 +2,7 @@ package orangePineapple;
 
 import java.awt.Dimension;
 import java.awt.FlowLayout;
+import java.util.Scanner;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -13,6 +14,7 @@ import javax.swing.SwingUtilities;
 
 public class Main implements Runnable{
 
+	
 	
 	/*
 	@Override
@@ -72,18 +74,48 @@ public class Main implements Runnable{
 		p1.takeDamage(8);
 		System.out.println("Health: " + p1.getHealth());
 		System.out.println("Armor: " + p1.getArmor());
-		*/	
 		
 		GUI gui = new GUI();
 		Player p1 = new Player();
 		gui.runGUI();
+		*/	
+		
+		int px = 0;
+		int py = 0;
+		char room[][] = new char[10][10];
 		
 		
+		
+		char grid[][] = new char[10][10];
+		Scanner move = new Scanner(System.in);
+		System.out.print("Enter your move (U/D/L/R)>");
+		
+		while(move.hasNext() == true)
+		{
+			if(move.next().equals("U"))
+			{
+				py = py +1;
+				//room = grid[px][py];
+			}
+			else if(move.next().equals("D"))
+			{
+				py = py -1;;
+				//room = grid[px][py];
+			}
+			else if(move.next().equals("L"))
+			{
+				px = px - 1;
+				//room = grid[px][py];
+			}
+			else if(move.next().equals("R"))
+			{
+				px = px + 1;
+				//room = grid[px][py];
+			}
+			System.out.println("x: " + px + " y: " + py);
+			
+		}
 		
 	}
-
-	
-
-	
 
 }
