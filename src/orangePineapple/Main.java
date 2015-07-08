@@ -78,7 +78,7 @@ public class Main implements Runnable{
 		GUI gui = new GUI();
 		Player p1 = new Player();
 		gui.runGUI();
-		*/	
+			*/
 		
 		int px = 0;
 		int py = 0;
