@@ -110,7 +110,7 @@ public class Main implements Runnable{
 			else if(move.next().equals("R"))
 			{
 				px = px + 1;
-				//room = grid[px][py];
+				//room = grid[px][py];;;;;;;;
 			}
 			System.out.println("x: " + px + " y: " + py);
 			
