@@ -82,37 +82,19 @@ public class Main implements Runnable{
 		
 		int px = 0;
 		int py = 0;
-		char room[][] = new char[10][10];
 		
 		
 		
+		Player p1 = new Player();
 		char grid[][] = new char[10][10];
 		Scanner move = new Scanner(System.in);
 		System.out.print("Enter your move (U/D/L/R)>");
-		
+		System.out.print("Type Stop to quit.");
 		while(move.hasNext() == true)
 		{
-			if(move.next().equals("U"))
-			{
-				py = py +1;
-				//room = grid[px][py];
-			}
-			else if(move.next().equals("D"))
-			{
-				py = py -1;;
-				//room = grid[px][py];
-			}
-			else if(move.next().equals("L"))
-			{
-				px = px - 1;
-				//room = grid[px][py];
-			}
-			else if(move.next().equals("R"))
-			{
-				px = px + 1;
-				//room = grid[px][py];;;;;;;;
-			}
-			System.out.println("x: " + px + " y: " + py);
+			
+			p1.move(move.next());
+			
 			
 		}
 		

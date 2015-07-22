@@ -88,7 +88,7 @@ public class Player
 	
 	public void move(String direction)
 	{
-		if(direction.equals("Up"))
+		if(direction.equals("U"))
 		{
 			_yPos = _yPos + 1;
 			if(_yPos == 10 )
@@ -96,9 +96,10 @@ public class Player
 				System.out.println("No room in this direction.");
 				_yPos = 9;
 			}
+			System.out.println("x: " + _xPos + " y: " + _yPos);
 			
 		}
-		else if(direction.equals("Down"))
+		else if(direction.equals("D"))
 		{
 			_yPos = _yPos - 1;
 			if(_yPos == -1 )
@@ -106,9 +107,10 @@ public class Player
 				System.out.println("No room in this direction.");
 				_yPos = 0;
 			}
+			System.out.println("x: " + _xPos + " y: " + _yPos);
 			
 		}
-		else if(direction.equals("Left"))
+		else if(direction.equals("L"))
 		{
 			_xPos = _xPos - 1;
 			if(_xPos == -1 )
@@ -116,8 +118,9 @@ public class Player
 				System.out.println("No room in this direction.");
 				_xPos = 0;
 			}
+			System.out.println("x: " + _xPos + " y: " + _yPos);
 		}
-		else if(direction.equals("Right"))
+		else if(direction.equals("R"))
 		{
 			_xPos = _xPos + 1;
 			if(_xPos == 10 )
@@ -125,6 +128,7 @@ public class Player
 				System.out.println("No room in this direction.");
 				_xPos = 9;
 			}
+			System.out.println("x: " + _xPos + " y: " + _yPos);
 		}
 	}
 	
