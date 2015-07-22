@@ -10,128 +10,508 @@ public class Grid
 	
 	public void pRoom(int room[][])
 	{
-		if(room[xPos][yPos] == room[0][0])
+		if(xPos <= 5)
 		{
-			
+			if(xPos == 0)
+			{
+				if(yPos <= 5)
+				{
+					if(yPos == 0)
+					{
+						
+					}
+					else if(yPos == 1)
+					{
+						
+					}
+					else if(yPos == 2)
+					{
+						
+					}
+					else if(yPos == 3)
+					{
+						
+					}
+					else if(yPos == 4)
+					{
+						
+					}
+					else if(yPos == 5)
+					{
+						
+					}
+				}
+				if(yPos > 5)
+				{
+					if(yPos == 6)
+					{
+						
+					}
+					else if(yPos == 7)
+					{
+						
+					}
+					else if(yPos == 8)
+					{
+						
+					}
+					else if(yPos == 9)
+					{
+						
+					}
+				}
+			}
+			else if(xPos == 1)
+			{
+				if(yPos <= 5)
+				{
+					if(yPos == 0)
+					{
+						
+					}
+					else if(yPos == 1)
+					{
+						
+					}
+					else if(yPos == 2)
+					{
+						
+					}
+					else if(yPos == 3)
+					{
+						
+					}
+					else if(yPos == 4)
+					{
+						
+					}
+					else if(yPos == 5)
+					{
+						
+					}
+				}
+				if(yPos > 5)
+				{
+					if(yPos == 6)
+					{
+						
+					}
+					else if(yPos == 7)
+					{
+						
+					}
+					else if(yPos == 8)
+					{
+						
+					}
+					else if(yPos == 9)
+					{
+						
+					}
+				}
+			}
+			else if(xPos == 2)
+			{
+				if(yPos <= 5)
+				{
+					if(yPos == 0)
+					{
+						
+					}
+					else if(yPos == 1)
+					{
+						
+					}
+					else if(yPos == 2)
+					{
+						
+					}
+					else if(yPos == 3)
+					{
+						
+					}
+					else if(yPos == 4)
+					{
+						
+					}
+					else if(yPos == 5)
+					{
+						
+					}
+				}
+				if(yPos > 5)
+				{
+					if(yPos == 6)
+					{
+						
+					}
+					else if(yPos == 7)
+					{
+						
+					}
+					else if(yPos == 8)
+					{
+						
+					}
+					else if(yPos == 9)
+					{
+						
+					}
+				}
+			}
+			else if(xPos == 3)
+			{
+				if(yPos <= 5)
+				{
+					if(yPos == 0)
+					{
+						
+					}
+					else if(yPos == 1)
+					{
+						
+					}
+					else if(yPos == 2)
+					{
+						
+					}
+					else if(yPos == 3)
+					{
+						
+					}
+					else if(yPos == 4)
+					{
+						
+					}
+					else if(yPos == 5)
+					{
+						
+					}
+				}
+				if(yPos > 5)
+				{
+					if(yPos == 6)
+					{
+						
+					}
+					else if(yPos == 7)
+					{
+						
+					}
+					else if(yPos == 8)
+					{
+						
+					}
+					else if(yPos == 9)
+					{
+						
+					}
+				}
+			}
+			else if(xPos == 4)
+			{
+				if(yPos <= 5)
+				{
+					if(yPos == 0)
+					{
+						
+					}
+					else if(yPos == 1)
+					{
+						
+					}
+					else if(yPos == 2)
+					{
+						
+					}
+					else if(yPos == 3)
+					{
+						
+					}
+					else if(yPos == 4)
+					{
+						
+					}
+					else if(yPos == 5)
+					{
+						
+					}
+				}
+				if(yPos > 5)
+				{
+					if(yPos == 6)
+					{
+						
+					}
+					else if(yPos == 7)
+					{
+						
+					}
+					else if(yPos == 8)
+					{
+						
+					}
+					else if(yPos == 9)
+					{
+						
+					}
+				}
+			}
+			else if(xPos == 5)
+			{
+				if(yPos <= 5)
+				{
+					if(yPos == 0)
+					{
+						
+					}
+					else if(yPos == 1)
+					{
+						
+					}
+					else if(yPos == 2)
+					{
+						
+					}
+					else if(yPos == 3)
+					{
+						
+					}
+					else if(yPos == 4)
+					{
+						
+					}
+					else if(yPos == 5)
+					{
+						
+					}
+				}
+				if(yPos > 5)
+				{
+					if(yPos == 6)
+					{
+						
+					}
+					else if(yPos == 7)
+					{
+						
+					}
+					else if(yPos == 8)
+					{
+						
+					}
+					else if(yPos == 9)
+					{
+						
+					}
+				}
+			}
 		}
-		else if(room[xPos][yPos] == room[0][1])
+		if(xPos > 5)
 		{
-			
+			if(xPos == 6)
+			{
+				if(yPos <= 5)
+				{
+					if(yPos == 0)
+					{
+						
+					}
+					else if(yPos == 1)
+					{
+						
+					}
+					else if(yPos == 2)
+					{
+						
+					}
+					else if(yPos == 3)
+					{
+						
+					}
+					else if(yPos == 4)
+					{
+						
+					}
+					else if(yPos == 5)
+					{
+						
+					}
+				}
+				if(yPos > 5)
+				{
+					if(yPos == 6)
+					{
+						
+					}
+					else if(yPos == 7)
+					{
+						
+					}
+					else if(yPos == 8)
+					{
+						
+					}
+					else if(yPos == 9)
+					{
+						
+					}
+				}
+			}
+			else if(xPos == 7)
+			{
+				if(yPos <= 5)
+				{
+					if(yPos == 0)
+					{
+						
+					}
+					else if(yPos == 1)
+					{
+						
+					}
+					else if(yPos == 2)
+					{
+						
+					}
+					else if(yPos == 3)
+					{
+						
+					}
+					else if(yPos == 4)
+					{
+						
+					}
+					else if(yPos == 5)
+					{
+						
+					}
+				}
+				if(yPos > 5)
+				{
+					if(yPos == 6)
+					{
+						
+					}
+					else if(yPos == 7)
+					{
+						
+					}
+					else if(yPos == 8)
+					{
+						
+					}
+					else if(yPos == 9)
+					{
+						
+					}
+				}
+			}
+			else if(xPos == 8)
+			{
+				if(yPos <= 5)
+				{
+					if(yPos == 0)
+					{
+						
+					}
+					else if(yPos == 1)
+					{
+						
+					}
+					else if(yPos == 2)
+					{
+						
+					}
+					else if(yPos == 3)
+					{
+						
+					}
+					else if(yPos == 4)
+					{
+						
+					}
+					else if(yPos == 5)
+					{
+						
+					}
+				}
+				if(yPos > 5)
+				{
+					if(yPos == 6)
+					{
+						
+					}
+					else if(yPos == 7)
+					{
+						
+					}
+					else if(yPos == 8)
+					{
+						
+					}
+					else if(yPos == 9)
+					{
+						
+					}
+				}
+			}
+			else if(xPos == 9)
+			{
+				if(yPos <= 5)
+				{
+					if(yPos == 0)
+					{
+						
+					}
+					else if(yPos == 1)
+					{
+						
+					}
+					else if(yPos == 2)
+					{
+						
+					}
+					else if(yPos == 3)
+					{
+						
+					}
+					else if(yPos == 4)
+					{
+						
+					}
+					else if(yPos == 5)
+					{
+						
+					}
+				}
+				if(yPos > 5)
+				{
+					if(yPos == 6)
+					{
+						
+					}
+					else if(yPos == 7)
+					{
+						
+					}
+					else if(yPos == 8)
+					{
+						
+					}
+					else if(yPos == 9)
+					{
+						
+					}
+				}
+			}
 		}
-		else if(room[xPos][yPos] == room[0][2])
+		else
 		{
-			
-		}
-		else if(room[xPos][yPos] == room[0][3])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[0][4])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[0][5])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[0][6])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[0][7])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[0][8])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[0][9])
-		{
-			
+			System.out.println("Something went wrong.");
 		}
 		
-		else if(room[xPos][yPos] == room[1][0])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[1][1])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[1][2])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[1][3])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[1][4])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[1][5])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[1][6])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[1][7])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[1][8])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[1][9])
-		{
-			
-		}
 		
-		else if(room[xPos][yPos] == room[2][0])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[2][1])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[2][2])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[2][3])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[2][4])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[2][5])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[2][6])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[2][7])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[2][8])
-		{
-			
-		}
-		else if(room[xPos][yPos] == room[2][9])
-		{
-			
-		}
 	}
 	
 	
