@@ -4,11 +4,10 @@ public class Grid
 {
 	
 	Player p1 = new Player();
-	int xPos = p1.getX();
-	int yPos = p1.getY();
-	int room[][] = new int[10][10];
+	private int _xPos = p1.getX();
+	private int _yPos = p1.getY();
 	
-	public void pRoom(int room[][])
+	public void pRoom(int xPos, int yPos)
 	{
 		if(xPos <= 5)
 		{
@@ -18,27 +17,28 @@ public class Grid
 				{
 					if(yPos == 0)
 					{
-						
+						System.out.println("You are at the origin.");
+						System.out.println("Billy Bob says hi.");
 					}
 					else if(yPos == 1)
 					{
-						
+						System.out.println("Billy bob follows you.");
 					}
 					else if(yPos == 2)
 					{
-						
+						System.out.println("Hi2");
 					}
 					else if(yPos == 3)
 					{
-						
+						System.out.println("Hi3");
 					}
 					else if(yPos == 4)
 					{
-						
+						System.out.println("Hi4");
 					}
 					else if(yPos == 5)
 					{
-						
+						System.out.println("Hi5");
 					}
 				}
 				if(yPos > 5)
@@ -67,7 +67,7 @@ public class Grid
 				{
 					if(yPos == 0)
 					{
-						
+						System.out.println("Billy bob follows you.");
 					}
 					else if(yPos == 1)
 					{
@@ -307,7 +307,7 @@ public class Grid
 				}
 			}
 		}
-		if(xPos > 5)
+		else if(xPos > 5)
 		{
 			if(xPos == 6)
 			{

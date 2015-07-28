@@ -57,44 +57,18 @@ public class Main implements Runnable{
 	
 	public static void main(String[] args) 
 	{
-		/*
-		Main m = new Main();
-		// Event queue
-		SwingUtilities.invokeLater(m);
-		
-		p1.setDamage(4);
-		p1.setArmor(10);
-		p1.setHealth(20);
-		System.out.println("Damage: " + p1.getDamage());
-		System.out.println("Health: " + p1.getHealth());
-		System.out.println("Armor: " + p1.getArmor());
-		p1.takeDamage(6);
-		System.out.println("Health: " + p1.getHealth());
-		System.out.println("Armor: " + p1.getArmor());
-		p1.takeDamage(8);
-		System.out.println("Health: " + p1.getHealth());
-		System.out.println("Armor: " + p1.getArmor());
-		
-		GUI gui = new GUI();
+	
 		Player p1 = new Player();
-		gui.runGUI();
-			*/
-		
-		int px = 0;
-		int py = 0;
-		
-		
-		
-		Player p1 = new Player();
-		char grid[][] = new char[10][10];
+		Grid g = new Grid();
 		Scanner move = new Scanner(System.in);
-		System.out.print("Enter your move (U/D/L/R)>");
-		System.out.print("Type Stop to quit.");
+		System.out.println("Enter your move (U/D/L/R).");
+		g.pRoom(p1.getX(), p1.getY());
+		
 		while(move.hasNext() == true)
 		{
 			
 			p1.move(move.next());
-			
+			g.pRoom(p1.getX(), p1.getY());
 			
 		}
 		

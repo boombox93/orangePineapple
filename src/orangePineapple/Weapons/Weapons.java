@@ -8,7 +8,7 @@ private String damageType; //The type of damage the weapon deals (fire, melee, e
 private int durability; //The amount of use an item can handle
 private int attackRange; //The distance at which the weapon can hit
     
-public Weapon() //Constructor
+public void Weapon() //Constructor
     { 
     }
 };
